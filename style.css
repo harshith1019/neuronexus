@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0; 
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details p {
+    margin: 5px 0;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Add more styles as needed */
+
+
+section {
+    padding: 3em 0;
+}
+
+#about,
+#skills,
+#projects,
+#contact {
+    background-color: #fff;
+    padding: 2em;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about h2,
+#skills h2,
+#projects h2,
+#contact h2 {
+    color: #675647;
+    margin-bottom: 10%;
+}
+
+.project-card {
+    margin-bottom: 20px;
+    border: solid black 2px;
+    margin-right: 10%;
+}
+.project-img img{
+    max-width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+
+#skills {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+.skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-category {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+li img {
+    max-width: 50px;
+    max-height: 50px;
+}
